@@ -2,6 +2,7 @@
   "files.associations": {
     "*.ejs": "html",
     "ostream": "cpp",
-    "xstring": "cpp"
+    "xstring": "cpp",
+    "xlocale": "cpp"
   }
 }
