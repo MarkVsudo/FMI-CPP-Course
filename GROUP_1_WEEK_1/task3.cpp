@@ -13,10 +13,8 @@ int main()
   cout << "Enter two integers: ";
   cin >> a >> b;
 
-  // Изчисляване на по-голямото число
   int maxNumber = (a + b + abs(a - b)) / 2;
 
-  // Изчисляване на по-малкото число
   int minNumber = (a + b - abs(a - b)) / 2;
 
   cout << maxNumber << " " << minNumber << endl;
