@@ -3,6 +3,7 @@
     "*.ejs": "html",
     "ostream": "cpp",
     "xstring": "cpp",
-    "xlocale": "cpp"
+    "xlocale": "cpp",
+    "iostream": "cpp"
   }
 }
