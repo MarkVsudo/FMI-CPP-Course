@@ -1,3 +1,5 @@
+// Въвеждане на ЕГН и заменяне на първите 7 цифри със *
+
 #include <iostream>
 using namespace std;
 
