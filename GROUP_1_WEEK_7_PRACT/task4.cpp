@@ -19,20 +19,17 @@ void fillArr(int arr[], int n)
 
 bool isArrMirror(int arr[], int n)
 {
-  bool isMirror = true;
-
   int elementsFromEachSide = n / 2;
 
   for (int i = 0; i < elementsFromEachSide; i++)
   {
     if (arr[i] != arr[n - i - 1])
     {
-      isMirror = false;
-      break;
+      return false;
     }
   }
 
-  return isMirror;
+  return true;
 }
 
 int main()
