@@ -28,7 +28,7 @@ void swapMinMax(double arr[], int n)
   cout << "Min value is: " << arr[indexMinEl] << " at index " << indexMinEl << endl;
   cout << "Max value is: " << arr[indexMaxEl] << " at index " << indexMaxEl << endl;
 
-  // Смяня min & max
+  // Смяна min & max
   double temp = arr[indexMinEl];
   arr[indexMinEl] = arr[indexMaxEl];
   arr[indexMaxEl] = temp;
