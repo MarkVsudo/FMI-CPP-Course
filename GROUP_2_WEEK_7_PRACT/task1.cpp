@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-void fillArray(int arr[], int n)
+void fillArray(double arr[], int n)
 {
   for (int i = 0; i < n; i++)
   {
@@ -12,27 +12,31 @@ void fillArray(int arr[], int n)
   }
 }
 
-int findMin(int arr[], int n)
+double findMin(double arr[], int n)
 {
-  int min = arr[0];
+  double min = arr[0];
 
-  for (int i = 0; i < n; i++)
+  for (int i = 1; i < n; i++)
   {
     if (arr[i] < min)
+    {
       min = arr[i];
+    }
   }
 
   return min;
 }
 
-int findMax(int arr[], int n)
+double findMax(double arr[], int n)
 {
-  int max = arr[0];
+  double max = arr[0];
 
-  for (int i = 0; i < n; i++)
+  for (int i = 1; i < n; i++)
   {
     if (arr[i] > max)
+    {
       max = arr[i];
+    }
   }
 
   return max;
@@ -40,11 +44,12 @@ int findMax(int arr[], int n)
 
 int main()
 {
-  int arr[100], n;
+  double arr[60];
+  int n;
 
   do
   {
-    cout << "Enter a number (1-60)";
+    cout << "Enter a number (1-60): ";
     cin >> n;
   } while (n < 1 || n > 60);
 
